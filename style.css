@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: MBCorpo Title;
+    src: url(./fonts/Corporate\ A\ Light.ttf);
+}
+
+
+
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header Start */
+
+header .topbar img{
+    width: 64px;
+}
+header .topbar p{
+    color: #d3d1d1;
+    font-size: 18px;
+    padding: 46px 0 0 50px;
+
+}
+
+header .topbar{
+    background-color: #000000;
+    padding: 16px 97px;
+    display: flex;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottombar ul{
+    display: flex;
+    padding: 22px;
+
+
+}
+.bottombar a{
+    color: #9f9f9f;
+    font-size: 18px;
+    padding: 15px;
+
+}
+
+header .bottombar {
+    background-color: #000000;
+    width: 100%;
+    height: 66px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    
+}
+
+
+/* Header End */
+
+/* Section-1 Start*/
+
+.section-1 img{
+    width: 100%;
+    height: 660px;
+}
+
+.section-1 .section-1-info{
+    position: absolute;
+    top: 27%;
+}
+.section-1{
+    position: relative;
+}
+
+.section-1 .section-1-info h1{
+    color: #ffff;
+    font-size: 64px;
+    font-family: MBcorpo Title;
+    font-weight: 400;
+    font-stretch: 100%;
+    line-height: 72px;
+    padding-left: 95px;
+}
+
+.section-1 .section-1-info p{
+    color: #ffff;
+    padding-left: 95px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: MBcorpo Title;
+}
+
+.section-1 button{
+
+    position: relative;
+    left: 109px;
+    padding: 13px 34px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+/* Section-1 End*/
+
+/* Section-2 Start*/
+
+h1{
+    color: rgb(51, 51, 51);
+    font-family: MBCorpo Title;
+    font-size: 48px;
+    font-weight: 400;
+    padding-left: 64px;
+    padding-top: 44px;
+
+}
+
+
+.section-2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+
+}
+
+
+.section-2 .section-2-img img{
+    width: 372px;
+    height: 277px;
+}
+
+.section-2-img h2{
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: MBcorpo Title;
+    font-weight: 700;
+    color: #000000;
+    font-stretch: 100%;
+}
+
+.section-2-img p{
+    font-size: 18px;
+    font-family: MBcorpo Title;
+    font-weight: 400;
+    color: #000000;
+    font-stretch: 100%;
+    line-height: 28px;
+
+}
+.section-2 .section-2-img .button1{
+    background:#0078d6;
+color:#ffff ;
+font-size: 16px;
+font-weight: 700;
+padding: 11px 23px; 
+width: 307px;
+border-radius: 2px;
+border: none;
+
+margin: 18px auto 0; /*for button distance from parent border (18px-top, auto-left&right equal space, 0-bottom */
+display: block; /*button is a inline element*/
+}
+
+.section-2 .section-2-img .button2{
+    background:#ffff;
+color:rgb(17, 16, 16) ;
+font-size: 16px;
+font-weight: 700;
+padding: 11px 23px; 
+width: 307px;
+border-radius: 2px;
+border: 1px solid rgb(134, 134, 134);
+
+margin: 18px auto;
+display: block;
+}
+
+#chat-button{
+
+    background:#ffff;
+color:rgb(17, 16, 16) ;
+font-size: 16px;
+font-weight: 700;
+padding: 11px 23px; 
+width: 307px;
+border-radius: 2px;
+border: 1px solid rgb(134, 134, 134);
+
+margin: 18px auto;
+display: block;
+
+position: absolute; /*child for position setting */
+bottom: 0;
+left: 31px;
+
+}
+
+.section-2-img {
+    border: 1px solid rgb(134, 134, 134);
+    position: relative; /*parent for position setting */
+    width: 374px;
+   
+
+}
+
+.section-2-img h2,p{
+    text-align: center;
+}
+
+
+/* Section-2 End*/
+
+
+/*Section-3 Start*/
+
+h4{
+    color: rgb(8, 8, 8);
+    font-family: MBCorpo Title;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 80px;
+    padding-top: 120px;
+
+
+    padding-bottom: 23px;
+}
+
+
+hr{
+    width: 92%;    /*horozontal line adjustment*/
+    margin: 0 auto;  /*horozontal line adjustment*/
+}
+
+p{
+    color: rgb(118, 118, 118);
+    font-family: MBCorpo Title;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 42px 60px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.box .box-child{
+    color: #a50e0e;
+    border: 1px solid black;
+    width: 268px;
+    height: 128px;
+
+}
+.box {
+    display: flex;
+    justify-content: space-around;
+
+}
+.box-child h5{
+    font-size: 18px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 14px;
+    color: rgb(51, 51, 51);
+}
+.box-child p{
+    color: rgb(40 37 37);
+    font-size: 16px;
+    margin-top: -14px;
+    text-align: center;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #000000;
+    margin-top: 136px;
+}
+
+nav a{ 
+    color: #ffff;
+    padding: 42px;
+    line-height: 6;
+
+}
